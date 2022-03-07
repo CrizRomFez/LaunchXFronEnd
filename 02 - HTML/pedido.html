@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realiza tu pedido</title>
+</head>
+<body>
+    <h1>Realiza tu pedido</h1>
+    <hr>
+    <h2>Formulario</h2>
+    <label for="Input1">Nombre</label><br>
+    <input type="text" id="Input1" name="Input1"><br><br>
+
+    <label for="correo1">Correo electrónico</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+    
+    <label for="numero1">Número de teléfono</label><br>
+    <input type="number" id="numero1" name="numero1"><br><br>
+    <hr>
+
+    <h2>Elige tu sabor de pastel</h2>
+    <label for="pasteles">Bizcocho</label>
+    <select id="pasteles" name="pasteles">
+        <option value="SP1">Fresa</option>
+        <option value="SP2">Chocolate</option>
+        <option value="SP3">Zanahoria</option>
+        <option value="SP4">Velvet</option>
+        <option value="SP5">Limón</option>
+    </select>
+    <hr>
+    <h2>Elige tu Topping</h2>
+    <label for="topping">Topping</label>
+    <select id="topping" name="topping">
+        <option value="TP1">Durazno</option>
+        <option value="TP2">Fresa</option>
+        <option value="TP3">Chocolate</option>
+        <option value="TP4">Fondant</option>
+        <option value="TP5">Ninguno</option>
+    </select>
+    <hr>
+    <h2>Bizcochos extra</h2>
+    <h3>Por cada pieza de pan añadida se aumentará el precio del pastel</h3>
+    <input type="radio" id="BE1" name="BEX" value="BizcochoFresa">
+    <label for="BE1">Bizcocho de fresa $100</label><br>
+    <input type="radio" id="BE2" name="BEX" value="BizcochoChocolate">
+    <label for="BE2">Bizcocho de chocolate $100</label><br>
+    <input type="radio" id="BE3" name="BEX" value="BizcochoZanahoria">
+    <label for="BE3">Bizcocho de zanahoria $150</label><br>
+    <input type="radio" id="BE4" name="BEX" value="BizcochoVelvet">
+    <label for="BE4">Bizcocho de red velvet $175</label><br>
+    <input type="radio" id="BE5" name="BEX" value="BizcochoLimon">
+    <label for="BE5">Bizcocho de limon $185</label><br>
+    <input type="radio" id="BE6" name="BEX" value="ninguno">
+    <label for="BE6">Ninguno</label><br>
+
+    <hr>
+    <h2>Toppings extra</h2>
+    <h3>Por cada topping añadido aumentará el precio del pastel</h3>
+    <input type="radio" id="DE1" name="DECO" value="BizcochoFresa">
+    <label for="DE1">Corona de durazno $50</label><br>
+    <input type="radio" id="DE2" name="DECO" value="BizcochoChocolate">
+    <label for="DE2">Corona de fresa $50</label><br>
+    <input type="radio" id="DE3" name="DECO" value="BizcochoZanahoria">
+    <label for="DE3">Cubierta de chocolate $80</label><br>
+    <input type="radio" id="DE4" name="DECO" value="BizcochoVelvet">
+    <label for="DE4">Fondant $100</label><br>
+    <input type="radio" id="DE5" name="DECO" value="ninguno">
+    <label for="DE5">Ninguno</label><br>
+
+    <hr>
+
+    <h2>Extra</h2>
+    <h3>Por cada topping añadido aumentará el precio del pastel</h3>
+    <input type="radio" id="EX1" name="EXT" value="vela">
+    <label for="EX1">Vela de cumpleaños $20</label><br>
+    <input type="radio" id="EX2" name="EXT" value="chispasco">
+    <label for="EX2">Chispas de colores $30</label><br>
+    <input type="radio" id="EX3" name="EXT" value="chispasch">
+    <label for="EX3">Chispas de chocolate $30</label><br>
+    <input type="radio" id="EX4" name="EXT" value="noviost">
+    <label for="EX4">Figura de novios $40</label><br>
+    <input type="radio" id="EX5" name="EXT" value="ninguno">
+    <label for="EX5">Ninguno</label><br>
+
+    <hr>
+    <a href="./pasteleria.html">
+        <input type="button" value="Volver al inicio">
+    </a><br><br>
+
+    
+    <input type="button" value="Completar pedido">
+    <br><br>
+
+</body>
+</html>
